@@ -1,0 +1,32 @@
+body {
+    background-color: #f0f0f0;
+    padding-top: 60px; /* Altura do header */
+    padding-bottom: 25px; /* Altura do footer */
+}
+
+.navbar {
+    border-radius: 0; /* Remove o arredondamento da navbar */
+}
+
+.main {
+    min-height: calc(100vh - 85px); /* Altura mínima da área principal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Adicione outras regras de estilo conforme necessário */
